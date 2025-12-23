@@ -1,0 +1,11 @@
+package com.example.gks.repository;
+
+import com.example.gks.domain.Partner;
+import com.example.gks.domain.Tenant;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface PartnerRepository extends JpaRepository<Partner, Long> {
+    List<Partner> findByTenant(Tenant tenant);
+}

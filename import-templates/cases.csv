@@ -1,0 +1,4 @@
+caseType,tenantName,partnerName,reference,payloadSummary
+ABMELDUNG,GK Muster GmbH,Autohaus Nord,REF-1001,Fahrzeug ABC123
+NEUZULASSUNG,GK Muster GmbH,Autohaus Nord,REF-1002,Neuzulassung Stadt Hamburg
+UMMELDUNG,GK Muster GmbH,Autohaus Süd,REF-1003,Umzug nach München
